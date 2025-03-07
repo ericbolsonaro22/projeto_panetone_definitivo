@@ -1,0 +1,32 @@
+<!DOCTYPE html>  
+<html lang="pt-br">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Panetone Proteico Sob Medida</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <div class="container">  
+        <h1>Panetone Proteico Sob Medida</h1>  
+        <div class="input-group">  
+            <label for="massa">Massa (em gramas):</label>  
+            <input type="number" id="massa" placeholder="Ex: 500">  
+        </div>  
+        <div class="input-group">  
+            <label for="quantidade">Quantidade:</label>  
+            <input type="number" id="quantidade" placeholder="Ex: 2" value="1">  
+        </div>  
+        <button onclick="calcular()">Calcular</button>  
+        <button onclick="reiniciar()">Reiniciar</button>  
+        <div id="resultado">  
+            <h2>Resultado:</h2>  
+            <p>Valor: <span id="valor">R$ 0,00</span></p>  
+            <h3>Ingredientes:</h3>  
+            <ul id="ingredientes"></ul>  
+        </div>  
+    </div>  
+
+    <script src="index.js"></script>  
+</body>  
+</html>  
