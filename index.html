@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <script type="module" src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Panetone Gourmet</title>
+</head>
+<body>
+    <header>
+        <img src="/img/logo-png.svg" alt="" class="logo" width="147px" height="147px">
+    </header>
+
+    <main>
+        <h1>Calculadora de Panetones Gourmet</h1>
+        <hr>
+        <br>
+        <label for="quantidade">Quantidade de Panetones</label>
+        <input type="number" id="quantidade" placeholder="Quantidade de Panetones:"><br>
+        <label for="Tamanho">Tamanho dos Panetones</label>
+        <select name="tamanho" id="tamanho"> 
+            <option value="180">180g</option>
+            <option value="440" selected>440g</option>
+            <option value="700">700g</option>
+        </select>
+        <label for="raio">Raio dos Panetones</label>
+        <input type="number" id="raio" placeholder="Raio desejado do Panetone (cm):"><br>
+        <label for="Altura">Altura dos Panetones</label>
+        <input type="number" id="altura" placeholder="Altura desejada do Panetone (cm):"><br>
+        <button id="calcular">Calcular</button><br>
+        <div id="resposta"></div>
+        <br><br><br><br><br>
+    </main>
+
+    <footer>
+        <p>2025 PanetoneGourmet. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
